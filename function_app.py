@@ -31,7 +31,7 @@ def func_testtinggithubactions(req: func.HttpRequest) -> func.HttpResponse:
     else:
         # Provide a custom message when the name is not provided
         return func.HttpResponse(
-            "Serverless is super duper awesome!! 🎉 "
+            "Hooray ..Serverless is super duper awesome!! 🎉 "
             "Pass a name in the query string or in the request body for a personalized response.",
             status_code=200
         )
